@@ -10,7 +10,7 @@ const Lista =(props) => {
             return <li>{elemento}</li>
         })
         }
-        
+        {titulo}
     </div>
   )
 }

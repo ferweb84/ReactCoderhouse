@@ -16,6 +16,6 @@ export const getFetch = new Promise((respuesta, rejected) => {
         }, 2000);
     
     }else {
-        rejected('400 not found')
+        rejected('404 not found')
     }
 })
