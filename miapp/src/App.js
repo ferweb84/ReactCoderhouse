@@ -5,8 +5,9 @@ import Cupones from './assets/Cupones';
 import PromosApp from './assets/PromosApp';
 import Footer from './assets/Footer';
 import { NavBar } from './components/NavBar/NavBar';
-import  {ItemListContainers}  from './ItemListContainers';
+import {ItemListContainers} from './ItemListContainers';
 import CartWidget from './components/CartWidget/CartWidget';
+
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <CartWidget/>
       <NavbarBurguer />
       <hr />
-      <ItemListContainers greeting = 'Bienvenidos a BuyAndHold' />
+      <ItemListContainers  greeting= 'BienvenidosFerlusw'/>
       <Destacados/>
       <Cupones/>
       <PromosApp/>
@@ -27,5 +28,5 @@ function App() {
 export default App;
 
 
-//COMPONENTS --- CONTAINERS
+
 

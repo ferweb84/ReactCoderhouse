@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import { getFetch } from '../../Mock'
-import ItemList from '../ItemList/ItemList'
-import './ItemListContainers.css'
+import ItemList from '.././ItemList'
+import '../ItemListContainers.css'
+
 
 
 const ItemListContainers=({greeting})=>{
