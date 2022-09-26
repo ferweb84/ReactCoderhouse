@@ -25,7 +25,7 @@ export const ContadorBoton = ({initial,stock,onAdd}) => {
         </div>
         </div>
   );
-}
+  }
 
 export default ContadorBoton;
 
